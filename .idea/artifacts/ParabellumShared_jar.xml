@@ -1,8 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="ParabellumShared:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/ParabellumShared_jar</output-path>
+    <output-path>$PROJECT_DIR$/build</output-path>
     <root id="archive" name="ParabellumShared.jar">
-      <element id="module-output" name="ParabellumShared" />
       <element id="library" level="project" name="ParabellumShared" />
     </root>
   </artifact>
