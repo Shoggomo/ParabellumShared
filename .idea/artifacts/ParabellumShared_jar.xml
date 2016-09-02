@@ -2,7 +2,10 @@
   <artifact type="jar" name="ParabellumShared:jar">
     <output-path>$PROJECT_DIR$/build</output-path>
     <root id="archive" name="ParabellumShared.jar">
-      <element id="library" level="project" name="ParabellumShared" />
+      <element id="module-output" name="ParabellumShared" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
     </root>
   </artifact>
 </component>
