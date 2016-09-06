@@ -9,9 +9,7 @@ public class SwampTerrain extends Terrain {
     private static SwampTerrain ourInstance = new SwampTerrain();
 
     private SwampTerrain() {
-        traitAll = Traits.Obstructed;
-        traitCavalry = null;
-        traitArtillery = Traits.Unpassable;
+        traitTerrain = Traits.Swamp;
     }
 
     public static SwampTerrain getInstance() {

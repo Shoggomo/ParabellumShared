@@ -9,9 +9,7 @@ public class RiverTerrain extends Terrain {
     private static RiverTerrain ourInstance = new RiverTerrain();
 
     private RiverTerrain() {
-        traitAll = Traits.Unpassable;
-        traitCavalry = null;
-        traitArtillery = null;
+        traitTerrain = Traits.River;
     }
 
     public static RiverTerrain getInstance() {

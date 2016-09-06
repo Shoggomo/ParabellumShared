@@ -1,8 +1,6 @@
 package Units;
 
-import Actions.MeeleAction;
-import Actions.RangedAction;
-import Actions.UniqueAction;
+import Abilities.Ability;
 import Etc.PlayerType;
 import Etc.Traits;
 
@@ -13,81 +11,105 @@ import java.util.List;
  */
 public class Unit {
     protected int maxHealth;
-    protected int currentHealth;
-    protected int maxMovementPoints;
-    protected int currentMovementPoints;
-    protected int armorTier;
-    protected int cost;
-    protected boolean hasCombatAction;
-    protected MeeleAction meeleAction;
-    protected RangedAction rangedAction;
-    protected UniqueAction uniqueAction;
-    protected UnitType unitType;
-    protected PlayerType owner;
-    protected List<Traits> activeTraits;
-
-    public void setHasCombatAction(boolean hasCombatAction) {
-        this.hasCombatAction = hasCombatAction;
-    }
-
-    public List<Traits> getActiveTraits() {
-        return activeTraits;
-    }
-
-    public int getCurrentMovementPoints() {
-        return currentMovementPoints;
-    }
-
-    public void setCurrentMovementPoints(int currentMovementPoints) {
-        this.currentMovementPoints = currentMovementPoints;
-    }
-
-    public boolean hasCombatAction() {
-        return hasCombatAction;
-    }
-
     public int getMaxHealth() {
         return maxHealth;
     }
 
+    protected int currentHealth;
     public int getCurrentHealth() {
         return currentHealth;
     }
-
     public void setCurrentHealth(int currentHealth) {
         this.currentHealth = currentHealth;
     }
 
-    public int getMaxMovementPoints() {
-        return maxMovementPoints;
+    protected int efficiency;
+    public int getEfficiency() {
+        return efficiency;
+    }
+    public void setEfficiency(int efficiency) {
+        this.efficiency = efficiency;
     }
 
-    public int getArmorTier() {
-        return armorTier;
+    protected int maxMovementRange;
+    public int getMaxMovementRange() {
+        return maxMovementRange;
     }
 
+    protected int currentMovementRange;
+    public int getCurrentMovementRange() {
+        return currentMovementRange;
+    }
+    public void setCurrentMovementRange(int currentMovementRange) {
+        this.currentMovementRange = currentMovementRange;
+    }
+
+    protected int meleeArmor;
+    public int getMeleeArmor() {
+        return meleeArmor;
+    }
+
+    protected int rangedArmor;
+    public int getRangedArmor() {
+        return rangedArmor;
+    }
+
+    protected int shockArmor;
+    public int getShockArmor() {
+        return shockArmor;
+    }
+
+    protected int cost;
     public int getCost() {
         return cost;
     }
 
-    public MeeleAction getMeeleAction() {
-        return meeleAction;
+    protected boolean isCombatReady;
+    public boolean getIsCombatReady() {
+        return isCombatReady;
+    }
+    public void setIsCombatReady(boolean isCombatReady) {
+        this.isCombatReady = isCombatReady;
     }
 
-    public RangedAction getRangedAction() {
-        return rangedAction;
+    protected Ability primaryAbility;
+    public Ability getPrimaryAbility() {
+        return primaryAbility;
     }
 
-    public UniqueAction getUniqueAction() {
-        return uniqueAction;
+    protected Ability secondaryAbility;
+    public Ability getSecondaryAbility() {
+        return secondaryAbility;
     }
 
+    protected UnitType unitType;
     public UnitType getUnitType() {
         return unitType;
     }
 
+    protected PlayerType owner;
     public PlayerType getOwner() {
         return owner;
     }
 
+    protected List<Traits> unitTraits;
+    public List<Traits> getUnitTraits() {
+        return unitTraits;
+    }
+
+    protected Traits terrainTrait;
+    public Traits getTerrainTrait() {
+        return terrainTrait;
+    }
+    public void setTerrainTrait(Traits terrainTrait) {
+        this.terrainTrait = terrainTrait;
+    }
+
+    protected List<Traits> combatTraits;
+    public List<Traits> getCombatTraits() {
+        return combatTraits;
+    }
+    public void setCombatTraits(List<Traits> combatTraits) {
+        this.combatTraits = combatTraits;
+    }
 }

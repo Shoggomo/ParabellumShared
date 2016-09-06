@@ -9,9 +9,7 @@ public class TowerTerrain extends Terrain {
     private static TowerTerrain ourInstance = new TowerTerrain();
 
     private TowerTerrain() {
-        traitAll = Traits.Fortified;
-        traitCavalry = null;
-        traitArtillery = null;
+        traitTerrain = Traits.Tower;
     }
 
     public static TowerTerrain getInstance() {

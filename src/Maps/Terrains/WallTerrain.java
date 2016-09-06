@@ -9,9 +9,7 @@ public class WallTerrain extends Terrain {
     private static WallTerrain ourInstance = new WallTerrain();
 
     private WallTerrain() {
-        traitAll = Traits.Fortified;
-        traitCavalry = null;
-        traitArtillery = null;
+        traitTerrain = Traits.Wall;
     }
 
     public static WallTerrain getInstance() {

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class ArquebuseerUnit extends Unit {
 
     public ArquebuseerUnit(PlayerType owner) {
-        maxHealth = 100;
+        /*maxHealth = 100;
         maxMovementPoints = 8;
         armorTier = 1;
         cost = 100;
@@ -24,6 +24,6 @@ public class ArquebuseerUnit extends Unit {
         currentMovementPoints = maxMovementPoints;
         hasCombatAction = true;
         this.owner = owner;
-        activeTraits = new ArrayList<Traits>();
+        activeTraits = new ArrayList<Traits>();*/
     }
 }

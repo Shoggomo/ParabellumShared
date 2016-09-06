@@ -9,9 +9,7 @@ public class MountainTerrain extends Terrain {
     private static MountainTerrain ourInstance = new MountainTerrain();
 
     private MountainTerrain() {
-        traitAll = Traits.Unpassable;
-        traitCavalry = null;
-        traitArtillery = null;
+        traitTerrain = Traits.Mountain;
     }
 
     public static MountainTerrain getInstance() {
