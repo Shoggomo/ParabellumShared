@@ -1,6 +1,5 @@
 package Etc;
 
-
 public enum Traits {
     Forest,
     Plain,

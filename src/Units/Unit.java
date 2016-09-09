@@ -64,22 +64,22 @@ public class Unit {
         return cost;
     }
 
-    protected boolean isCombatReady;
-    public boolean getIsCombatReady() {
-        return isCombatReady;
+    protected boolean abilitiesReady;
+    public boolean areAbilitiesReady() {
+        return abilitiesReady;
     }
-    public void setIsCombatReady(boolean isCombatReady) {
-        this.isCombatReady = isCombatReady;
-    }
-
-    protected Ability primaryAbility;
-    public Ability getPrimaryAbility() {
-        return primaryAbility;
+    public void setAbilitiesReady(boolean abilityAvailable) {
+        this.abilitiesReady = abilitiesReady;
     }
 
-    protected Ability secondaryAbility;
-    public Ability getSecondaryAbility() {
-        return secondaryAbility;
+    protected Ability firstAbility;
+    public Ability getFirstAbility() {
+        return  firstAbility;
+    }
+
+    protected Ability secondAbility;
+    public Ability getSecondAbility() {
+        return secondAbility;
     }
 
     protected UnitType unitType;
