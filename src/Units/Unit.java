@@ -1,7 +1,6 @@
 package Units;
 
 import Abilities.Ability;
-import Abilities.Combat;
 import Etc.PlayerType;
 import Etc.Traits;
 
