@@ -7,4 +7,10 @@ import Etc.Trait;
  */
 public abstract class Terrain {
     protected Trait traitTerrain;
+
+    public Trait getTraitTerrain() {
+        return traitTerrain;
+    }
+
+
 }

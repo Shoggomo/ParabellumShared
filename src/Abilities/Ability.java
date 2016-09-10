@@ -22,4 +22,32 @@ public class Ability {
         this.efficiencyDamage = efficiencyDamage;
     }
 
+    public int getInfantryDamage() {
+        return infantryDamage;
+    }
+
+    public int getCavalryDamage() {
+        return cavalryDamage;
+    }
+
+    public int getArtilleryDamage() {
+        return artilleryDamage;
+    }
+
+    public int getEfficiencyDamage() {
+        return efficiencyDamage;
+    }
+
+    public int getAttackRange() {
+        return attackRange;
+    }
+
+    public int getLimit() {
+        return limit;
+    }
+
+    public AbilityType getAbilityType() {
+        return abilityType;
+    }
+
 }
