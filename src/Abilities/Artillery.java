@@ -1,7 +1,5 @@
 package Abilities;
 
-import Etc.AbilityType;
-
 /**
  * Created by Nik on 06.09.2016.
  */

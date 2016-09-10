@@ -1,4 +1,4 @@
-package Etc;
+package Abilities;
 
 /**
  * Created by Nik on 10.09.2016.
