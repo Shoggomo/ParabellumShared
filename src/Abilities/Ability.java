@@ -12,4 +12,14 @@ public class Ability {
     protected int limit;
     protected AbilityType abilityType;
 
+    public Ability(AbilityType abilityType, int attackRange, int limit, int infantryDamage, int cavalryDamage, int artilleryDamage, int efficiencyDamage) {
+        this.abilityType = abilityType;
+        this.attackRange = attackRange;
+        this.limit = limit;
+        this.infantryDamage = infantryDamage;
+        this.cavalryDamage = cavalryDamage;
+        this.artilleryDamage = artilleryDamage;
+        this.efficiencyDamage = efficiencyDamage;
+    }
+
 }

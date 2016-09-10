@@ -5,9 +5,7 @@ package Abilities;
  */
 public class Melee extends Ability {
 
-    public Melee(){
-        abilityType = AbilityType.Melee;
-        attackRange = 2;
-        limit = Integer.MAX_VALUE;
+    public Melee(int infantryDamage, int cavalryDamage, int artilleryDamage, int efficiencyDamage){
+        super(AbilityType.Melee, 2, Integer.MAX_VALUE, infantryDamage, cavalryDamage, artilleryDamage, efficiencyDamage);
     }
 }

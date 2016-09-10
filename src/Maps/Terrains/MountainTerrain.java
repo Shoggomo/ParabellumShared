@@ -1,6 +1,6 @@
 package Maps.Terrains;
 
-import Etc.Traits;
+import Etc.Trait;
 
 /**
  * Created by Shoggomo on 02.09.2016.
@@ -9,7 +9,7 @@ public class MountainTerrain extends Terrain {
     private static MountainTerrain ourInstance = new MountainTerrain();
 
     private MountainTerrain() {
-        traitTerrain = Traits.Mountain;
+        traitTerrain = Trait.Mountain;
     }
 
     public static MountainTerrain getInstance() {

@@ -1,6 +1,6 @@
 package Maps.Terrains;
 
-import Etc.Traits;
+import Etc.Trait;
 
 /**
  * Created by Shoggomo on 02.09.2016.
@@ -9,7 +9,7 @@ public class TowerTerrain extends Terrain {
     private static TowerTerrain ourInstance = new TowerTerrain();
 
     private TowerTerrain() {
-        traitTerrain = Traits.Tower;
+        traitTerrain = Trait.Tower;
     }
 
     public static TowerTerrain getInstance() {

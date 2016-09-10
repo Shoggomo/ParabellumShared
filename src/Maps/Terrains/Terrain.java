@@ -1,10 +1,10 @@
 package Maps.Terrains;
 
-import Etc.Traits;
+import Etc.Trait;
 
 /**
  * Created by Shoggomo on 02.09.2016.
  */
 public abstract class Terrain {
-    protected Traits traitTerrain;
+    protected Trait traitTerrain;
 }

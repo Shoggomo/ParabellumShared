@@ -2,7 +2,7 @@ package Units;
 
 import Abilities.Ability;
 import Etc.PlayerType;
-import Etc.Traits;
+import Etc.Trait;
 
 import java.util.List;
 
@@ -11,105 +11,90 @@ import java.util.List;
  */
 public class Unit {
     protected int maxHealth;
+    protected int currentHealth;
+    protected int maxEfficiency = 10;
+    protected int efficiency = maxEfficiency;
+    protected int maxMovementRange;
+    protected int currentMovementRange;
+    protected int meleeArmor;
+    protected int rangedArmor;
+    protected int shockArmor;
+    protected int cost;
+    protected boolean combatReady = true ;
+    protected Ability meleeAbility;
+    protected Ability nonMeleeAbility;
+    protected UnitType unitType;
+    protected PlayerType owner;
+    protected List<Trait> traits;
+
+
     public int getMaxHealth() {
         return maxHealth;
     }
-
-    protected int currentHealth;
     public int getCurrentHealth() {
         return currentHealth;
     }
     public void setCurrentHealth(int currentHealth) {
         this.currentHealth = currentHealth;
     }
-
-    protected int efficiency;
+    public int getMaxEfficiency(){
+        return maxEfficiency;
+    }
+    public void setMaxEfficiency(int maxEfficiency){
+        this.maxEfficiency = maxEfficiency;
+    }
     public int getEfficiency() {
         return efficiency;
     }
     public void setEfficiency(int efficiency) {
         this.efficiency = efficiency;
     }
-
-    protected int maxMovementRange;
     public int getMaxMovementRange() {
         return maxMovementRange;
     }
-
-    protected int currentMovementRange;
     public int getCurrentMovementRange() {
         return currentMovementRange;
     }
     public void setCurrentMovementRange(int currentMovementRange) {
         this.currentMovementRange = currentMovementRange;
     }
-
-    protected int meleeArmor;
     public int getMeleeArmor() {
         return meleeArmor;
     }
-
-    protected int rangedArmor;
     public int getRangedArmor() {
         return rangedArmor;
     }
-
-    protected int shockArmor;
     public int getShockArmor() {
         return shockArmor;
     }
-
-    protected int cost;
     public int getCost() {
         return cost;
     }
-
-    protected boolean combatReady;
-    public boolean areCombatReady() {
+    public boolean isCombatReady() {
         return combatReady;
     }
     public void setCombatReadyReady(boolean combatReady) {
         this.combatReady = combatReady;
     }
-
-    protected Ability meleeAbility;
     public Ability getMeleeAbility() {
         return  meleeAbility;
     }
-
-    protected Ability nonMeleeAbility;
-    public Ability getnonMeleeAbility() {
+    public Ability getNonMeleeAbility() {
         return nonMeleeAbility;
     }
-
-    protected UnitType unitType;
     public UnitType getUnitType() {
         return unitType;
     }
-
-    protected PlayerType owner;
     public PlayerType getOwner() {
         return owner;
     }
-
-    protected List<Traits> unitTraits;
-    public List<Traits> getUnitTraits() {
-        return unitTraits;
+    public List<Trait> getTraits() {
+        return traits;
     }
-
-    protected Traits terrainTrait;
-    public Traits getTerrainTrait() {
-        return terrainTrait;
+    public void addTrait(Trait trait){
+        traits.add(trait);
     }
-    public void setTerrainTrait(Traits terrainTrait) {
-        this.terrainTrait = terrainTrait;
-    }
-
-    protected List<Traits> combatTraits;
-    public List<Traits> getCombatTraits() {
-        return combatTraits;
-    }
-    public void setCombatTraits(List<Traits> combatTraits) {
-        this.combatTraits = combatTraits;
+    public void removeTrait(Trait trait){
+        traits.remove(trait);
     }
 }
