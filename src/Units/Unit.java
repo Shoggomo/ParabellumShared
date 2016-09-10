@@ -20,7 +20,7 @@ public class Unit {
     protected int rangedArmor;
     protected int shockArmor;
     protected int cost;
-    protected boolean combatReady = true ;
+    protected boolean combatReady = true;
     protected Ability meleeAbility;
     protected Ability nonMeleeAbility;
     protected UnitType unitType;
@@ -31,70 +31,92 @@ public class Unit {
     public int getMaxHealth() {
         return maxHealth;
     }
+
     public int getCurrentHealth() {
         return currentHealth;
     }
+
     public void setCurrentHealth(int currentHealth) {
         this.currentHealth = currentHealth;
     }
-    public int getMaxEfficiency(){
+
+    public int getMaxEfficiency() {
         return maxEfficiency;
     }
-    public void setMaxEfficiency(int maxEfficiency){
+
+    public void setMaxEfficiency(int maxEfficiency) {
         this.maxEfficiency = maxEfficiency;
     }
+
     public int getEfficiency() {
         return efficiency;
     }
+
     public void setEfficiency(int efficiency) {
         this.efficiency = efficiency;
     }
+
     public int getMaxMovementRange() {
         return maxMovementRange;
     }
+
     public int getCurrentMovementRange() {
         return currentMovementRange;
     }
+
     public void setCurrentMovementRange(int currentMovementRange) {
         this.currentMovementRange = currentMovementRange;
     }
+
     public int getMeleeArmor() {
         return meleeArmor;
     }
+
     public int getRangedArmor() {
         return rangedArmor;
     }
+
     public int getShockArmor() {
         return shockArmor;
     }
+
     public int getCost() {
         return cost;
     }
+
     public boolean isCombatReady() {
         return combatReady;
     }
+
     public void setCombatReadyReady(boolean combatReady) {
         this.combatReady = combatReady;
     }
+
     public Ability getMeleeAbility() {
-        return  meleeAbility;
+        return meleeAbility;
     }
+
     public Ability getNonMeleeAbility() {
         return nonMeleeAbility;
     }
+
     public UnitType getUnitType() {
         return unitType;
     }
+
     public PlayerType getOwner() {
         return owner;
     }
+
     public List<Trait> getTraits() {
         return traits;
     }
-    public void addTrait(Trait trait){
+
+    public void addTrait(Trait trait) {
         traits.add(trait);
     }
-    public void removeTrait(Trait trait){
+
+    public void removeTrait(Trait trait) {
         traits.remove(trait);
     }
 }
