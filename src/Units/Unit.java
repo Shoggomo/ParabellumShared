@@ -1,6 +1,7 @@
 package Units;
 
 import Abilities.Ability;
+import Abilities.Combat;
 import Etc.PlayerType;
 import Etc.Traits;
 
@@ -64,22 +65,22 @@ public class Unit {
         return cost;
     }
 
-    protected boolean abilitiesReady;
-    public boolean areAbilitiesReady() {
-        return abilitiesReady;
+    protected boolean combatReady;
+    public boolean areCombatReady() {
+        return combatReady;
     }
-    public void setAbilitiesReady(boolean abilityAvailable) {
-        this.abilitiesReady = abilitiesReady;
-    }
-
-    protected Ability firstAbility;
-    public Ability getFirstAbility() {
-        return  firstAbility;
+    public void setCombatReadyReady(boolean combatReady) {
+        this.combatReady = combatReady;
     }
 
-    protected Ability secondAbility;
-    public Ability getSecondAbility() {
-        return secondAbility;
+    protected Ability meleeAbility;
+    public Ability getMeleeAbility() {
+        return  meleeAbility;
+    }
+
+    protected Ability nonMeleeAbility;
+    public Ability getnonMeleeAbility() {
+        return nonMeleeAbility;
     }
 
     protected UnitType unitType;

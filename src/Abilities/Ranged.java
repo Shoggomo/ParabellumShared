@@ -3,5 +3,5 @@ package Abilities;
 /**
  * Created by Nik on 05.09.2016.
  */
-public class Ranged extends Combat{
+public class Ranged extends Ability{
 }

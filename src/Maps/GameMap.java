@@ -5,9 +5,9 @@ package Maps;
  */
 public class GameMap {
     private String name;
-    private Tile[] tiles;
+    private Tile[][] tiles;
 
-    public GameMap(String name, Tile[] tiles) {
+    public GameMap(String name, Tile[][] tiles) {
         this.name = name;
         this.tiles = tiles;
     }
@@ -16,7 +16,7 @@ public class GameMap {
         return name;
     }
 
-    public Tile[] getTiles() {
+    public Tile[][] getTiles() {
         return tiles;
     }
 }
