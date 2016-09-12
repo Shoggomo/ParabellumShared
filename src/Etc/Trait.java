@@ -6,5 +6,5 @@ public enum Trait {
     Breakthrough,
     Steadfast,
     Artillery,
-    Arrows
+    Quickdraw
 }
