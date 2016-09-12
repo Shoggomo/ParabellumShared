@@ -12,8 +12,8 @@ import java.util.List;
 public class Unit {
     protected int maxHealth;
     protected int currentHealth;
-    protected int maxEfficiency = 10;
-    protected int efficiency = maxEfficiency;
+    protected int maxOrder = 10;
+    protected int order = maxOrder;
     protected int maxMovementRange;
     protected int currentMovementRange;
     protected int meleeArmor;
@@ -22,7 +22,7 @@ public class Unit {
     protected int cost;
     protected boolean combatReady = true;
     protected Ability meleeAbility;
-    protected Ability nonFirstAbility;
+    protected Ability SecondAbilityAbility;
     protected UnitType unitType;
     protected PlayerType owner;
     protected List<Trait> traits;
@@ -39,20 +39,20 @@ public class Unit {
         this.currentHealth = currentHealth;
     }
 
-    public int getMaxEfficiency() {
-        return maxEfficiency;
+    public int getMaxOrder() {
+        return maxOrder;
     }
 
-    public void setMaxEfficiency(int maxEfficiency) {
-        this.maxEfficiency = maxEfficiency;
+    public void setMaxOrder(int maxOrder) {
+        this.maxOrder = maxOrder;
     }
 
-    public int getEfficiency() {
-        return efficiency;
+    public int getOrder() {
+        return order;
     }
 
-    public void setEfficiency(int efficiency) {
-        this.efficiency = efficiency;
+    public void setOrder(int order) {
+        this.order = order;
     }
 
     public int getMaxMovementRange() {
@@ -96,7 +96,7 @@ public class Unit {
     }
 
     public Ability getSecondAbility() {
-        return nonFirstAbility;
+        return SecondAbilityAbility;
     }
 
     public UnitType getUnitType() {

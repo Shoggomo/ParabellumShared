@@ -7,19 +7,19 @@ public class Ability {
     protected int infantryDamage;
     protected int cavalryDamage;
     protected int artilleryDamage;
-    protected int efficiencyDamage;
+    protected int orderDamage;
     protected int attackRange;
     protected int limit;
     protected AbilityType abilityType;
 
-    public Ability(AbilityType abilityType, int attackRange, int limit, int infantryDamage, int cavalryDamage, int artilleryDamage, int efficiencyDamage) {
+    public Ability(AbilityType abilityType, int attackRange, int limit, int infantryDamage, int cavalryDamage, int artilleryDamage, int orderDamage) {
         this.abilityType = abilityType;
         this.attackRange = attackRange;
         this.limit = limit;
         this.infantryDamage = infantryDamage;
         this.cavalryDamage = cavalryDamage;
         this.artilleryDamage = artilleryDamage;
-        this.efficiencyDamage = efficiencyDamage;
+        this.orderDamage = orderDamage;
     }
 
     public int getInfantryDamage() {
@@ -34,8 +34,8 @@ public class Ability {
         return artilleryDamage;
     }
 
-    public int getEfficiencyDamage() {
-        return efficiencyDamage;
+    public int getOrderDamage() {
+        return orderDamage;
     }
 
     public int getAttackRange() {

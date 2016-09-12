@@ -5,7 +5,7 @@ package Abilities;
  */
 public class Artillery extends Ability {
 
-    public Artillery(int attackRange, int limit, int infantryDamage, int cavalryDamage, int artilleryDamage, int efficiencyDamage) {
-        super(AbilityType.Artillery, attackRange, limit, infantryDamage, cavalryDamage, artilleryDamage, efficiencyDamage);
+    public Artillery(int attackRange, int limit, int infantryDamage, int cavalryDamage, int artilleryDamage, int orderDamage) {
+        super(AbilityType.Artillery, attackRange, limit, infantryDamage, cavalryDamage, artilleryDamage, orderDamage);
     }
 }
