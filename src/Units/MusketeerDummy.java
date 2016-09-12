@@ -16,7 +16,7 @@ public class MusketeerDummy extends Unit {
         maxMovementRange = 6;
         currentMovementRange = maxMovementRange;
         meleeAbility = new Melee(1, 1, 1, 1);
-        nonMeleeAbility = new Ranged(5, 12, 1, 1, 1, 1);
+        nonFirstAbility = new Ranged(5, 12, 1, 1, 1, 1);
         meleeArmor = 1;
         rangedArmor = 1;
         shockArmor = 1;

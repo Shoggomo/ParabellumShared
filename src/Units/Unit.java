@@ -3,6 +3,7 @@ package Units;
 import Abilities.Ability;
 import Etc.PlayerType;
 import Etc.Trait;
+import Maps.Terrains.TerrainType;
 
 import java.util.List;
 
@@ -22,11 +23,10 @@ public class Unit {
     protected int cost;
     protected boolean combatReady = true;
     protected Ability meleeAbility;
-    protected Ability nonMeleeAbility;
+    protected Ability nonFirstAbility;
     protected UnitType unitType;
     protected PlayerType owner;
     protected List<Trait> traits;
-
 
     public int getMaxHealth() {
         return maxHealth;
@@ -92,12 +92,12 @@ public class Unit {
         this.combatReady = combatReady;
     }
 
-    public Ability getMeleeAbility() {
+    public Ability getFirstAbility() {
         return meleeAbility;
     }
 
-    public Ability getNonMeleeAbility() {
-        return nonMeleeAbility;
+    public Ability getSecondAbility() {
+        return nonFirstAbility;
     }
 
     public UnitType getUnitType() {
@@ -110,13 +110,5 @@ public class Unit {
 
     public List<Trait> getTraits() {
         return traits;
-    }
-
-    public void addTrait(Trait trait) {
-        traits.add(trait);
-    }
-
-    public void removeTrait(Trait trait) {
-        traits.remove(trait);
     }
 }
