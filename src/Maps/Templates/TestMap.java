@@ -1,7 +1,7 @@
 package Maps.Templates;
 
+import Etc.Terrain;
 import Maps.StartType;
-import Maps.Terrains.Terrain;
 
 /**
  * Created by Shoggomo on 02.09.2016.

@@ -1,9 +1,7 @@
 package Maps;
 
-import Maps.Terrains.Terrain;
+import Etc.Terrain;
 import Units.Unit;
-
-import java.awt.*;
 
 
 /**

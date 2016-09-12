@@ -7,6 +7,5 @@ public class Ranged extends Ability {
 
     public Ranged(int attackRange, int limit, int infantryDamage, int cavalryDamage, int artilleryDamage, int efficiencyDamage) {
         super(AbilityType.Ranged, attackRange, limit, infantryDamage, cavalryDamage, artilleryDamage, efficiencyDamage);
-
     }
 }

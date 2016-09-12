@@ -3,7 +3,6 @@ package Units;
 import Abilities.Ability;
 import Etc.PlayerType;
 import Etc.Trait;
-import Maps.Terrains.TerrainType;
 
 import java.util.List;
 

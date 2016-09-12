@@ -1,19 +1,20 @@
 package Maps.Templates;
 
+import Etc.Terrain;
 import Maps.StartType;
-import Maps.Terrains.*;
 
 /**
  * Created by Shoggomo on 02.09.2016.
  */
 public class MapTemplate {
-    protected final Terrain M = MountainTerrain.getInstance();
-    protected final Terrain R = RiverTerrain.getInstance();
-    protected final Terrain F = ForestTerrain.getInstance();
-    protected final Terrain S = SwampTerrain.getInstance();
-    protected final Terrain P = PlainTerrain.getInstance();
-    protected final Terrain T = TowerTerrain.getInstance();
-    protected final Terrain W = WallTerrain.getInstance();
+    protected final Terrain M = Terrain.Mountain;
+    protected final Terrain R = Terrain.River;
+    protected final Terrain F = Terrain.Forest;
+    protected final Terrain S = Terrain.Swamp;
+    protected final Terrain P = Terrain.Plain;
+    protected final Terrain T = Terrain.Tower;
+    protected final Terrain W = Terrain.Wall;
+    protected final Terrain H = Terrain.Hill;
     protected final StartType P1 = StartType.Player1;
     protected final StartType P2 = StartType.Player2;
     protected final StartType NP = StartType.NoStart;

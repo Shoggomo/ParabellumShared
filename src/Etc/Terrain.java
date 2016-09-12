@@ -1,14 +1,15 @@
-package Maps.Terrains;
+package Etc;
 
 /**
  * Created by Nik on 11.09.2016.
  */
-public enum TerrainType {
+public enum Terrain {
     Forest,
     Plain,
     Swamp,
     Mountain,
     River,
     Tower,
-    Wall
+    Wall,
+    Hill
 }
