@@ -8,7 +8,7 @@ import Maps.StartType;
  */
 public class TestMap extends MapTemplate {
 
-    public TestMap() {
+        public TestMap() {
 
         name = "TestMap";
         terrains = new Terrain[][]{

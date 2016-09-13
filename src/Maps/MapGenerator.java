@@ -8,7 +8,8 @@ import Maps.Templates.MapTemplate;
 public class MapGenerator {
 
     public static GameMap createMapFromTemplate(MapTemplate template) {
-        //TODO
+        String name = template.getName();
+
         return null;
     }
 
