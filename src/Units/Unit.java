@@ -18,11 +18,11 @@ public class Unit {
     protected int currentMovementRange;
     protected int meleeArmor;
     protected int rangedArmor;
-    protected int shockArmor;
+    protected int chargeArmor;
     protected int cost;
     protected boolean combatReady = true;
-    protected Ability meleeAbility;
-    protected Ability SecondAbilityAbility;
+    protected Ability firstAbility;
+    protected Ability secondAbility;
     protected UnitType unitType;
     protected PlayerType owner;
     protected List<Trait> traits;
@@ -75,8 +75,8 @@ public class Unit {
         return rangedArmor;
     }
 
-    public int getShockArmor() {
-        return shockArmor;
+    public int getChargeArmor() {
+        return chargeArmor;
     }
 
     public int getCost() {
@@ -92,11 +92,11 @@ public class Unit {
     }
 
     public Ability getFirstAbility() {
-        return meleeAbility;
+        return firstAbility;
     }
 
     public Ability getSecondAbility() {
-        return SecondAbilityAbility;
+        return secondAbility;
     }
 
     public UnitType getUnitType() {

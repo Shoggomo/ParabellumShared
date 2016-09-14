@@ -15,11 +15,11 @@ public class MusketeerDummy extends Unit {
         currentHealth = maxHealth;
         maxMovementRange = 6;
         currentMovementRange = maxMovementRange;
-        meleeAbility = new Melee(1, 1, 1, 1);
-        SecondAbilityAbility = new Ranged(5, 12, 1, 1, 1, 1);
+        firstAbility = new Melee(1, 1, 1, 1);
+        secondAbility = new Ranged(5, 12, 1, 1, 1, 1);
         meleeArmor = 1;
         rangedArmor = 1;
-        shockArmor = 1;
+        chargeArmor = 1;
         cost = 1;
         this.owner = owner;
     }

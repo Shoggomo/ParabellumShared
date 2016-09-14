@@ -1,7 +1,9 @@
 package Maps;
 
-import Etc.Terrain;
+import Maps.Terrain.Terrain;
+import Maps.Terrain.TerrainType;
 import Units.Unit;
+import Units.UnitType;
 
 
 /**
@@ -17,8 +19,52 @@ public class Tile {
         this.startType = startType;
     }
 
-    public Terrain getTerrain() {
+    private Terrain getTerrain() {
         return terrain;
+    }
+
+    public TerrainType getTerrainType(){
+        return getTerrain().getTerrainType();
+    }
+
+    public int getMeleeShield() {
+        return getTerrain().getMeleeShield(unit.getUnitType());
+    }
+
+    public int getRangedShield() {
+        return getTerrain().getRangedShield(unit.getUnitType());
+    }
+
+    public int getArtilleryShield() {
+        return getTerrain().getArtilleryShield(unit.getUnitType());
+    }
+
+    public int getChargeShield() {
+        return getTerrain().getChargeShield(unit.getUnitType());
+    }
+
+    public int getMeleeBonus() {
+        return getTerrain().getMeleeBonus(unit.getUnitType());
+    }
+
+    public int getRangedBonus() {
+        return getTerrain().getRangedBonus(unit.getUnitType());
+    }
+
+    public int getArtilleryBonus() {
+        return getTerrain().getArtilleryBonus(unit.getUnitType());
+    }
+
+    public int getChargeBonus() {
+        return getTerrain().getChargeBonus(unit.getUnitType());
+    }
+
+    public boolean canBeCharged() {
+        return getTerrain().canBeCharged(unit.getUnitType());
+    }
+
+    public boolean isPassable() {
+        return getTerrain().isPassable(unit.getUnitType());
     }
 
     public Unit getUnit() {
