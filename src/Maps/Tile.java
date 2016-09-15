@@ -67,6 +67,13 @@ public class Tile {
         return getTerrain().isPassable(unit.getUnitType());
     }
 
+    public boolean isPassable(Unit unitToPass){
+        if (unit == null){
+            if(getTerrain().isPassable(unitToPass.getUnitType())) return true;
+        }
+        return false;
+    }
+
     public Unit getUnit() {
         return unit;
     }
