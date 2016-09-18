@@ -11,5 +11,6 @@ public enum TerrainType {
     River,
     Tower,
     Wall,
-    Hill
+    Hill,
+    Base
 }
