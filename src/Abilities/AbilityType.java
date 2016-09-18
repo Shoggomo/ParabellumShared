@@ -5,7 +5,7 @@ package Abilities;
  */
 public enum AbilityType {
     Melee,
-    Shock,
+    Charge,
     Ranged,
     Artillery
 }
