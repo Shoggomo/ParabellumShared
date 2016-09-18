@@ -22,5 +22,4 @@ public class TestMap extends MapTemplate {
                 {NP, P2, NP}
         };
     }
-
 }
