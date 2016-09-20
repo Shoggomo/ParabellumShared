@@ -3,7 +3,6 @@ package Maps;
 import Maps.Terrain.Terrain;
 import Maps.Terrain.TerrainType;
 import Units.Unit;
-import Units.UnitType;
 
 
 /**

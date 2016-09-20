@@ -1,7 +1,5 @@
 package Maps.Terrain;
 
-import Units.UnitType;
-
 /**
  * Created by Nik on 14.09.2016.
  */

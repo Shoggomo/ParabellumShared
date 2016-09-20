@@ -6,7 +6,7 @@ import Maps.Terrain.Terrain;
 /**
  * Created by Jakob on 20.09.2016.
  */
-public class TextMap2x2 extends MapTemplate{
+public class TextMap2x2 extends MapTemplate {
 
     public TextMap2x2() {
 
