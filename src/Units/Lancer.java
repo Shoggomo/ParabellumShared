@@ -19,9 +19,9 @@ public class Lancer extends Unit {
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(50, 50, 80, 0);
         secondAbility = new Charge(6,80,80,100,3);
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        meleeArmor = 30;
+        rangedArmor = 30;
+        chargeArmor = 30;
         cost = 1;
         this.owner = owner;
         traits.add(Trait.Steadfast);

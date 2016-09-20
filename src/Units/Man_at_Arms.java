@@ -18,9 +18,9 @@ public class Man_at_Arms extends Unit {
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(50, 40, 80, 0);
         secondAbility = null;
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        meleeArmor = 30;
+        rangedArmor = 30;
+        chargeArmor = 30;
         cost = 1;
         this.owner = owner;
         traits.add(Trait.Steadfast);

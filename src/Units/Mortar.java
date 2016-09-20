@@ -19,11 +19,11 @@ public class Mortar extends Unit {
         currentMovementRange = maxMovementRange;
         firstAbility = new Artillery(9,12,40,40,40,3);
         secondAbility = null;
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        meleeArmor = 0;
+        rangedArmor = 0;
+        chargeArmor = 0;
         cost = 1;
         this.owner = owner;
-        traits.add(Trait.Bombardment);
+        traits.add(Trait.SmallTarget);
     }
 }

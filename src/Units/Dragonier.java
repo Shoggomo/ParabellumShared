@@ -17,9 +17,9 @@ public class Dragonier extends Unit {
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(40, 30, 70, 0);
         secondAbility = new Ranged(5, 12, 40, 25, 25, 1);
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        meleeArmor = 10;
+        rangedArmor = 10;
+        chargeArmor = 10;
         cost = 1;
         this.owner = owner;
     }

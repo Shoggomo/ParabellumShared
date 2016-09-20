@@ -18,9 +18,9 @@ public class Pikeman extends Unit {
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(30, 60, 60, 0);
         secondAbility = null;
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        meleeArmor = 10;
+        rangedArmor = 10;
+        chargeArmor = 50;
         cost = 1;
         this.owner = owner;
         traits.add(Trait.Pikewall);
