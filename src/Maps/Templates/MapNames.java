@@ -6,5 +6,6 @@ package Maps.Templates;
 public enum MapNames {
     TestMap,
     TestMap8x8,
-    TestMap2x2
+    TestMap2x2,
+    Towerswamp
 }
