@@ -59,6 +59,10 @@ public class Tile {
         return getTerrain().getChargeBonus(unit.getUnitType());
     }
 
+    public boolean canBeCharged() {
+        return getTerrain().canBeCharged(unit.getUnitType());
+    }
+
     public boolean isPassable() {
         return getTerrain().isPassable(unit.getUnitType());
     }
