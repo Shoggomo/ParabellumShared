@@ -16,7 +16,6 @@ public class Terrain {
     protected int rangedBonus;
     protected int artilleryBonus;
     protected int chargeBonus;
-    protected boolean canBeCharged;
     protected boolean passable;
 
     public TerrainType getTerrainType(){
@@ -63,11 +62,6 @@ public class Terrain {
         return chargeBonus;
     }
 
-    public boolean canBeCharged(UnitType unitType) {
-        initUnitType(unitType);
-        return canBeCharged;
-    }
-
     public boolean isPassable(UnitType unitType) {
         initUnitType(unitType);
         return passable;
@@ -100,7 +94,6 @@ public class Terrain {
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
-        canBeCharged = true;
         passable = true;
     }
 }

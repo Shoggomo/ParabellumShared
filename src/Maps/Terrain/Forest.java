@@ -14,7 +14,7 @@ public class Forest extends Terrain {
         rangedShield = 40;
         artilleryShield = 40;
         chargeShield = 50;
-        meleeBonus = -10;
+        meleeBonus = -20;
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
@@ -26,7 +26,7 @@ public class Forest extends Terrain {
         rangedShield = 20;
         artilleryShield = 40;
         chargeShield = 50;
-        meleeBonus = -30;
+        meleeBonus = -40;
         rangedBonus = -20;
         artilleryBonus = 0;
         chargeBonus = -40;
