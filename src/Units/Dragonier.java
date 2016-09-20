@@ -5,15 +5,15 @@ import Abilities.Ranged;
 import Etc.PlayerType;
 
 /**
- * Created by Nik on 10.09.2016.
+ * Created by Nik on 20.09.2016.
  */
-public class MusketeerDummy extends Unit {
+public class Dragonier extends Unit {
 
-    public MusketeerDummy(PlayerType owner) {
-        unitType = UnitType.Infantry;
+    public Dragonier(PlayerType owner){
+        unitType = UnitType.Cavalry;
         maxHealth = 100;
         currentHealth = maxHealth;
-        maxMovementRange = 6;
+        maxMovementRange = 13;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(1, 1, 1, 1);
         secondAbility = new Ranged(5, 12, 1, 1, 1, 1);

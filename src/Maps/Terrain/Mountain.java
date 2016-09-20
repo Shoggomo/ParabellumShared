@@ -18,7 +18,7 @@ public class Mountain extends Terrain {
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
-        passable = true;
+        passable = false;
     }
 
     protected void initCavalry() {
@@ -30,7 +30,7 @@ public class Mountain extends Terrain {
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
-        passable = true;
+        passable = false;
     }
 
     protected void initArtillery() {
@@ -42,6 +42,6 @@ public class Mountain extends Terrain {
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
-        passable = true;
+        passable = false;
     }
 }

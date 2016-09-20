@@ -5,6 +5,6 @@ public enum Trait {
     Pikewall,
     Breakthrough,
     Steadfast,
-    Artillery,
-    Quickdraw
+    Quickdraw,
+    Bombardment
 }
