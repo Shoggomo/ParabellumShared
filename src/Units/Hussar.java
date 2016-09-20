@@ -17,8 +17,8 @@ public class Hussar extends Unit {
         currentHealth = maxHealth;
         maxMovementRange = 13;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Melee(1, 1, 1, 1);
-        secondAbility = new Charge(8,1,1,1,1);
+        firstAbility = new Melee(40, 40, 80, 0);
+        secondAbility = new Charge(8,60,60,100,1);
         meleeArmor = 1;
         rangedArmor = 1;
         chargeArmor = 1;

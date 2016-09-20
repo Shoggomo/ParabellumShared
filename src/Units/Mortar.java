@@ -9,15 +9,15 @@ import Etc.Trait;
 /**
  * Created by Nik on 20.09.2016.
  */
-public class Bombard extends Unit {
+public class Mortar extends Unit {
 
-    public Bombard(PlayerType owner){
+    public Mortar(PlayerType owner){
         unitType = UnitType.Infantry;
         maxHealth = 100;
         currentHealth = maxHealth;
         maxMovementRange = 3;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Artillery(1,1,1,1,1,1);
+        firstAbility = new Artillery(9,12,40,40,40,3);
         secondAbility = null;
         meleeArmor = 1;
         rangedArmor = 1;
