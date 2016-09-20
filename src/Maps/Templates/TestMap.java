@@ -10,16 +10,18 @@ public class TestMap extends MapTemplate {
 
         public TestMap() {
 
-        name = "TestMap";
-        terrains = new Terrain[][]{
-                {M, F, S},
-                {P, P, P},
-                {R, S, W}
-        };
-        startMap = new StartType[][]{
-                {NP, P1, NP},
-                {NP, NP, NP},
-                {NP, P2, NP}
-        };
-    }
+                name = "TestMap";
+                terrains = new Terrain[][]{
+                        {M, F, S},
+                        {P, P, P},
+                        {R, S, W}
+                };
+                startMap = new StartType[][]{
+                        {NP, P1, NP},
+                        {NP, NP, NP},
+                        {NP, P2, NP}
+                };
+
+        }
+
 }

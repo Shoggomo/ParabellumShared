@@ -18,6 +18,7 @@ public class Swamp extends Terrain {
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
+        canBeCharged = true;
         passable = true;
     }
 
@@ -30,6 +31,7 @@ public class Swamp extends Terrain {
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
+        canBeCharged = true;
         passable = true;
     }
 
@@ -42,6 +44,7 @@ public class Swamp extends Terrain {
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
+        canBeCharged = true;
         passable = true;
     }
 }
