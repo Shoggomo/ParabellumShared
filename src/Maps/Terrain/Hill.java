@@ -16,31 +16,31 @@ public class Hill extends Terrain {
         chargeShield = 20;
         meleeBonus = 20;
         rangedBonus = 20;
-        artilleryBonus = 20;
-        chargeBonus = 20;
+        artilleryBonus = 0;
+        chargeBonus = 0;
         passable = true;
     }
 
     protected void initCavalry() {
-        meleeShield = 0;
-        rangedShield = 0;
-        artilleryShield = 0;
-        chargeShield = 0;
-        meleeBonus = 0;
-        rangedBonus = 0;
+        meleeShield = 20;
+        rangedShield = 20;
+        artilleryShield = 20;
+        chargeShield = 20;
+        meleeBonus = 20;
+        rangedBonus = 20;
         artilleryBonus = 0;
         chargeBonus = 0;
         passable = true;
     }
 
     protected void initArtillery() {
-        meleeShield = 0;
-        rangedShield = 0;
-        artilleryShield = 0;
-        chargeShield = 0;
+        meleeShield = 20;
+        rangedShield = 20;
+        artilleryShield = 20;
+        chargeShield = 20;
         meleeBonus = 0;
-        rangedBonus = 0;
-        artilleryBonus = 0;
+        rangedBonus = 20;
+        artilleryBonus = 20;
         chargeBonus = 0;
         passable = true;
     }
