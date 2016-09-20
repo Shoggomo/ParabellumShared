@@ -18,7 +18,7 @@ public class Lancer extends Unit {
         maxMovementRange = 9;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(1, 1, 1, 1);
-        secondAbility = new Charge(1,1,1,1,1);
+        secondAbility = new Charge(6,1,1,1,1);
         meleeArmor = 1;
         rangedArmor = 1;
         chargeArmor = 1;

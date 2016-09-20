@@ -17,7 +17,7 @@ public class Cuirassier extends Unit {
         maxMovementRange = 11;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(1, 1, 1, 1);
-        secondAbility = new Ranged(3, 8, 1, 1, 1, 1);
+        secondAbility = new Ranged(3, 6, 1, 1, 1, 1);
         meleeArmor = 1;
         rangedArmor = 1;
         chargeArmor = 1;
