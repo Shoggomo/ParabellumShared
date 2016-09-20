@@ -11,10 +11,10 @@ public class Forest extends Terrain {
     
     protected void initInfantry() {
         meleeShield = 20;
-        rangedShield = 30;
-        artilleryShield = 50;
+        rangedShield = 40;
+        artilleryShield = 40;
         chargeShield = 50;
-        meleeBonus = -20;
+        meleeBonus = -10;
         rangedBonus = 0;
         artilleryBonus = 0;
         chargeBonus = 0;
@@ -23,8 +23,8 @@ public class Forest extends Terrain {
 
     protected void initCavalry() {
         meleeShield = 20;
-        rangedShield = 30;
-        artilleryShield = 50;
+        rangedShield = 20;
+        artilleryShield = 40;
         chargeShield = 50;
         meleeBonus = -30;
         rangedBonus = -20;
@@ -35,8 +35,8 @@ public class Forest extends Terrain {
 
     protected void initArtillery() {
         meleeShield = 0;
-        rangedShield = 30;
-        artilleryShield = 50;
+        rangedShield = 20;
+        artilleryShield = 40;
         chargeShield = 20;
         meleeBonus = 0;
         rangedBonus = 0;
