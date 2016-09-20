@@ -16,7 +16,7 @@ public class Pikeman extends Unit {
         currentHealth = maxHealth;
         maxMovementRange = 5;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Melee(1, 1, 1, 1);
+        firstAbility = new Melee(30, 60, 60, 0);
         secondAbility = null;
         meleeArmor = 1;
         rangedArmor = 1;

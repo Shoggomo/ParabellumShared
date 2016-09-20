@@ -12,7 +12,7 @@ public class Cuirassier extends Unit {
 
     public Cuirassier(PlayerType owner){
         unitType = UnitType.Cavalry;
-        maxHealth = 1160;
+        maxHealth = 160;
         currentHealth = maxHealth;
         maxMovementRange = 11;
         currentMovementRange = maxMovementRange;
