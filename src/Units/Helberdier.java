@@ -16,11 +16,11 @@ public class Helberdier extends Unit {
         currentHealth = maxHealth;
         maxMovementRange = 5;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Melee(1, 1, 1, 1);
+        firstAbility = new Melee(40, 60, 80, 0);
         secondAbility = null;
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        meleeArmor = 20;
+        rangedArmor = 20;
+        chargeArmor = 40;
         cost = 1;
         this.owner = owner;
         traits.add(Trait.Breakthrough);

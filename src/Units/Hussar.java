@@ -1,5 +1,6 @@
 package Units;
 
+import Abilities.Charge;
 import Abilities.Melee;
 import Abilities.Ranged;
 import Etc.PlayerType;
@@ -16,11 +17,11 @@ public class Hussar extends Unit {
         currentHealth = maxHealth;
         maxMovementRange = 13;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Melee(1, 1, 1, 1);
-        secondAbility = new Ranged(5, 12, 1, 1, 1, 1);
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        firstAbility = new Melee(40, 40, 80, 0);
+        secondAbility = new Charge(8,60,60,100,1);
+        meleeArmor = 15;
+        rangedArmor = 15;
+        chargeArmor = 15;
         cost = 1;
         this.owner = owner;
         traits.add(Trait.HitAndRun);

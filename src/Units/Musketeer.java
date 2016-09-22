@@ -15,11 +15,11 @@ public class Musketeer extends Unit {
         currentHealth = maxHealth;
         maxMovementRange = 5;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Melee(1, 1, 1, 1);
-        secondAbility = new Ranged(7, 8, 1, 1, 1, 1);
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        firstAbility = new Melee(20, 20, 40, 0);
+        secondAbility = new Ranged(7, 8, 60, 60, 50, 1);
+        meleeArmor = 0;
+        rangedArmor = 0;
+        chargeArmor = 0;
         cost = 1;
         this.owner = owner;
     }

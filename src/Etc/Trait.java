@@ -6,5 +6,6 @@ public enum Trait {
     Breakthrough,
     Steadfast,
     Quickdraw,
-    Bombardment
+    Bombardment,
+    SmallTarget
 }

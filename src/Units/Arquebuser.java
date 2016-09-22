@@ -15,11 +15,11 @@ public class Arquebuser extends Unit {
         currentHealth = maxHealth;
         maxMovementRange = 7;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Melee(1, 1, 1, 1);
-        secondAbility = new Ranged(5, 8, 1, 1, 1, 1);
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        firstAbility = new Melee(30, 30, 60, 0);
+        secondAbility = new Ranged(5, 12, 50, 50, 50, 1);
+        meleeArmor = 5;
+        rangedArmor = 5;
+        chargeArmor = 5;
         cost = 1;
         this.owner = owner;
     }

@@ -12,15 +12,15 @@ public class Cuirassier extends Unit {
 
     public Cuirassier(PlayerType owner){
         unitType = UnitType.Cavalry;
-        maxHealth = 100;
+        maxHealth = 160;
         currentHealth = maxHealth;
         maxMovementRange = 11;
         currentMovementRange = maxMovementRange;
-        firstAbility = new Melee(1, 1, 1, 1);
-        secondAbility = new Ranged(3, 8, 1, 1, 1, 1);
-        meleeArmor = 1;
-        rangedArmor = 1;
-        chargeArmor = 1;
+        firstAbility = new Melee(50, 50, 80, 0);
+        secondAbility = new Ranged(3, 6, 40, 40, 40, 1);
+        meleeArmor = 25;
+        rangedArmor = 25;
+        chargeArmor = 25;
         cost = 1;
         this.owner = owner;
         traits.add(Trait.HitAndRun);

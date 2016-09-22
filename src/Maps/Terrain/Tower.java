@@ -10,41 +10,38 @@ public class Tower extends Terrain {
     }
 
     protected void initInfantry() {
-        meleeShield = 0;
-        rangedShield = 0;
-        artilleryShield = 0;
-        chargeShield = 0;
+        meleeShield = 40;
+        rangedShield = 40;
+        artilleryShield = 20;
+        chargeShield = 60;
         meleeBonus = 0;
-        rangedBonus = 0;
+        rangedBonus = 30;
         artilleryBonus = 0;
         chargeBonus = 0;
-        canBeCharged = true;
         passable = true;
     }
 
     protected void initCavalry() {
-        meleeShield = 0;
-        rangedShield = 0;
-        artilleryShield = 0;
-        chargeShield = 0;
-        meleeBonus = 0;
-        rangedBonus = 0;
+        meleeShield = 30;
+        rangedShield = 30;
+        artilleryShield = 20;
+        chargeShield = 60;
+        meleeBonus = -20;
+        rangedBonus = 20;
         artilleryBonus = 0;
-        chargeBonus = 0;
-        canBeCharged = true;
+        chargeBonus = -20;
         passable = true;
     }
 
     protected void initArtillery() {
-        meleeShield = 0;
-        rangedShield = 0;
-        artilleryShield = 0;
-        chargeShield = 0;
+        meleeShield = 40;
+        rangedShield = 40;
+        artilleryShield = 20;
+        chargeShield = 60;
         meleeBonus = 0;
-        rangedBonus = 0;
-        artilleryBonus = 0;
+        rangedBonus = 30;
+        artilleryBonus = 30;
         chargeBonus = 0;
-        canBeCharged = true;
         passable = true;
     }
 }
