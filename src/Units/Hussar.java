@@ -22,7 +22,7 @@ public class Hussar extends Unit {
         meleeArmor = 15;
         rangedArmor = 15;
         chargeArmor = 15;
-        cost = 1;
+        cost = 25;
         this.owner = owner;
         traits.add(Trait.HitAndRun);
     }

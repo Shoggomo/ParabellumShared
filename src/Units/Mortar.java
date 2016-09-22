@@ -22,7 +22,7 @@ public class Mortar extends Unit {
         meleeArmor = 0;
         rangedArmor = 0;
         chargeArmor = 0;
-        cost = 1;
+        cost = 20;
         this.owner = owner;
         traits.add(Trait.SmallTarget);
     }
