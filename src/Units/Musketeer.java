@@ -20,7 +20,7 @@ public class Musketeer extends Unit {
         meleeArmor = 0;
         rangedArmor = 0;
         chargeArmor = 0;
-        cost = 12;
+        cost = 10;
         this.owner = owner;
     }
 }

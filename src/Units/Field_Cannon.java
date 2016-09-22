@@ -22,7 +22,7 @@ public class Field_Cannon extends Unit {
         meleeArmor = 0;
         rangedArmor = 0;
         chargeArmor = 0;
-        cost = 25;
+        cost = 24;
         this.owner = owner;
         traits.add(Trait.SmallTarget);
     }
