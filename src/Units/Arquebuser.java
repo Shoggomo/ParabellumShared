@@ -19,7 +19,7 @@ public class Arquebuser extends Unit {
         secondAbility = new Ranged(5, 8, 50, 50, 50, 1);
         meleeArmor = 5;
         rangedArmor = 5;
-        chargeArmor = 5;
+        chargeArmor = 0;
         cost = 10;
         this.owner = owner;
     }

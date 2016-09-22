@@ -21,7 +21,7 @@ public class Helberdier extends Unit {
         meleeArmor = 20;
         rangedArmor = 20;
         chargeArmor = 40;
-        cost = 20;
+        cost = 16;
         this.owner = owner;
         traits.add(Trait.Breakthrough);
     }

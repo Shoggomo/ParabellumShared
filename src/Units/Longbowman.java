@@ -20,7 +20,7 @@ public class Longbowman extends Unit {
         secondAbility = new Ranged(9, 12, 30, 30, 30, 0);
         meleeArmor = 10;
         rangedArmor = 10;
-        chargeArmor = 15;
+        chargeArmor = 10;
         cost = 1;
         this.owner = owner;
         traits.add(Trait.Quickdraw);
