@@ -22,7 +22,7 @@ public class Man_at_Arms extends Unit {
         meleeArmor = 30;
         rangedArmor = 30;
         chargeArmor = 30;
-        cost = 1;
+        cost = 24;
         this.owner = owner;
         traits.add(Trait.Steadfast);
     }

@@ -22,7 +22,7 @@ public class Pikeman extends Unit {
         meleeArmor = 10;
         rangedArmor = 10;
         chargeArmor = 50;
-        cost = 1;
+        cost = 10;
         this.owner = owner;
         traits.add(Trait.Pikewall);
     }

@@ -21,7 +21,7 @@ public class Dragonier extends Unit {
         meleeArmor = 10;
         rangedArmor = 10;
         chargeArmor = 10;
-        cost = 1;
+        cost = 16;
         this.owner = owner;
     }
 }

@@ -22,7 +22,7 @@ public class Cuirassier extends Unit {
         meleeArmor = 25;
         rangedArmor = 25;
         chargeArmor = 25;
-        cost = 1;
+        cost = 30;
         this.owner = owner;
         traits.add(Trait.HitAndRun);
     }
