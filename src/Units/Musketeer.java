@@ -10,6 +10,7 @@ import Etc.PlayerType;
 public class Musketeer extends Unit {
 
     public Musketeer(PlayerType owner) {
+        super("Musketeer");
         unitType = UnitType.Infantry;
         maxHealth = 100;
         currentHealth = maxHealth;

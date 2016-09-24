@@ -10,6 +10,7 @@ import java.util.List;
  * Created by Shoggomo on 02.09.2016.
  */
 public class Unit {
+    protected String name;
     protected int maxHealth;
     protected int currentHealth;
     protected int maxOrder = 10;
@@ -26,6 +27,14 @@ public class Unit {
     protected UnitType unitType;
     protected PlayerType owner;
     protected List<Trait> traits;
+
+    public Unit(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
 
     public int getMaxHealth() {
         return maxHealth;

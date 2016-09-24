@@ -11,6 +11,7 @@ import Etc.Trait;
 public class Helberdier extends Unit {
 
     public Helberdier(PlayerType owner){
+        super("Helberdier");
         unitType = UnitType.Infantry;
         maxHealth = 160;
         currentHealth = maxHealth;
