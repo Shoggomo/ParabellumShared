@@ -24,6 +24,5 @@ public class Cuirassier extends Unit {
         chargeArmor = 25;
         cost = 30;
         this.owner = owner;
-        traits.add(Trait.HitAndRun);
     }
 }
