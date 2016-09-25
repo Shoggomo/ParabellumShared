@@ -10,7 +10,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Lancer extends Unit {
-
+//Lance
     public Lancer(PlayerType owner){
         super("Lancer");
         unitType = UnitType.Cavalry;

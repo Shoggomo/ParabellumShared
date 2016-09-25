@@ -9,7 +9,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Cuirassier extends Unit {
-
+//Pistol
     public Cuirassier(PlayerType owner){
         super("Cuirassier");
         unitType = UnitType.Cavalry;

@@ -8,10 +8,10 @@ import Etc.Trait;
 /**
  * Created by Nik on 20.09.2016.
  */
-public class Helberdier extends Unit {
-
-    public Helberdier(PlayerType owner){
-        super("Helberdier");
+public class Swordsman extends Unit {
+//Sword & Shield
+    public Swordsman(PlayerType owner){
+        super("Swordsman");
         unitType = UnitType.Infantry;
         maxHealth = 160;
         currentHealth = maxHealth;

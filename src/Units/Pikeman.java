@@ -9,7 +9,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Pikeman extends Unit {
-
+///Pikes
     public Pikeman(PlayerType owner){
         super("Pikeman");
         unitType = UnitType.Infantry;

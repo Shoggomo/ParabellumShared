@@ -9,7 +9,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Longbowman extends Unit {
-
+//Longbow
     public Longbowman(PlayerType owner){
         super("Longbowman");
         unitType = UnitType.Infantry;

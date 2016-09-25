@@ -5,16 +5,14 @@ package Units;
  */
 public enum UnitNames {
 
-    Arquebuser,
     Cuirassier,
     Dragonier,
     Field_Cannon,
-    Helbadier,
+    Swordsman,
     Hussar,
     Lancer,
     Longbowman,
     Man_at_Arms,
-    Mortar,
     Musketeer,
     Pikeman,
 

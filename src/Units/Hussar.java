@@ -10,7 +10,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Hussar extends Unit {
-
+//Sword
     public Hussar(PlayerType owner){
         super("Hussar");
         unitType = UnitType.Infantry;
