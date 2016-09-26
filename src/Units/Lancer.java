@@ -25,6 +25,6 @@ public class Lancer extends Unit {
         chargeArmor = 30;
         cost = 32;
         this.owner = owner;
-        traits.add(Trait.Steadfast);
+        //traits.add(Trait.Steadfast);
     }
 }

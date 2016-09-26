@@ -24,6 +24,6 @@ public class Longbowman extends Unit {
         chargeArmor = 10;
         cost = 1;
         this.owner = owner;
-        traits.add(Trait.Quickdraw);
+        //traits.add(Trait.Quickdraw);
     }
 }

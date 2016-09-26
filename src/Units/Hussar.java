@@ -25,6 +25,6 @@ public class Hussar extends Unit {
         chargeArmor = 15;
         cost = 20;
         this.owner = owner;
-        traits.add(Trait.HitAndRun);
+        //traits.add(Trait.HitAndRun);
     }
 }

@@ -24,6 +24,6 @@ public class Swordsman extends Unit {
         chargeArmor = 40;
         cost = 16;
         this.owner = owner;
-        traits.add(Trait.Breakthrough);
+        //traits.add(Trait.Breakthrough);
     }
 }

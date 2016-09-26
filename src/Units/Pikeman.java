@@ -24,6 +24,6 @@ public class Pikeman extends Unit {
         chargeArmor = 50;
         cost = 10;
         this.owner = owner;
-        traits.add(Trait.Pikewall);
+        //traits.add(Trait.Pikewall);
     }
 }

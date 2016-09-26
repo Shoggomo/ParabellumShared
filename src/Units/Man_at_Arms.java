@@ -24,6 +24,6 @@ public class Man_at_Arms extends Unit {
         chargeArmor = 30;
         cost = 24;
         this.owner = owner;
-        traits.add(Trait.Steadfast);
+        //traits.add(Trait.Steadfast);
     }
 }
