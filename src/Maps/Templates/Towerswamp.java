@@ -12,8 +12,8 @@ public class Towerswamp extends MapTemplate {
 
         name = "Towerswamp";
         terrains = new Terrain[][]{
-                {T, F, T, F, F, F, M, M, M, F, F, F, M, M, M, F, F, F, F, W, B},
-                {F, F, F, F, P, P, H, H, H, P, P, P, H, H, H, P, P, F, F, W, W},
+                {T, F, T, F, F, F, M, M, M, F, F, F, M, M, M, F, F, F, F, T, B},
+                {F, F, F, F, P, P, H, H, H, P, P, P, H, H, H, P, P, F, F, T, T},
                 {T, F, F, P, P, P, P, P, P, P, P, P, P, P, P, P, P, P, F, F, F},
                 {F, F, P, P, P, H, P, P, P, P, H, H, P, P, F, F, P, P, P, F, F},
                 {F, P, P, P, H, M, H, P, P, H, M, M, H, P, F, F, F, P, P, P, F},
@@ -31,8 +31,8 @@ public class Towerswamp extends MapTemplate {
                 {F, P, P, P, F, F, F, P, H, M, M, H, P, P, H, M, H, P, P, P, F},
                 {F, F, P, P, P, F, F, P, P, H, H, P, P, P, P, H, P, P, P, F, F},
                 {F, F, F, P, P, P, P, P, P, P, P, P, P, P, P, P, P, P, F, F, T},
-                {W, W, F, F, P, P, H, H, H, P, P, P, H, H, H, P, P, F, F, F, F},
-                {B, W, F, F, F, F, M, M, M, F, F, F, M, M, M, F, F, F, T, F, T},
+                {T, T, F, F, P, P, H, H, H, P, P, P, H, H, H, P, P, F, F, F, F},
+                {B, T, F, F, F, F, M, M, M, F, F, F, M, M, M, F, F, F, T, F, T},
         };
         startMap = new StartType[][]{
                 {NP, NP, NP, NP, NP, NP, NP, NP, NP, NP, NP, NP, NP, NP, NP, P2, P2, P2, P2, P2, P2},

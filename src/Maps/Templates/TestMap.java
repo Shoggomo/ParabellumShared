@@ -14,7 +14,7 @@ public class TestMap extends MapTemplate {
                 terrains = new Terrain[][]{
                         {M, F, S},
                         {P, P, P},
-                        {R, S, W}
+                        {R, S, T}
                 };
                 startMap = new StartType[][]{
                         {NP, P1, NP},
