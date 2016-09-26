@@ -12,5 +12,6 @@ public enum TerrainType {
     Tower,
     Wall,
     Hill,
-    Base
+    Base_PLayer1,
+    Base_Player2
 }

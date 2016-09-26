@@ -15,7 +15,8 @@ public class MapTemplate {
     protected final Terrain T = new Tower();
     protected final Terrain W = new Wall();
     protected final Terrain H = new Hill();
-    protected final Terrain B = new Base();
+    protected final Terrain B1 = new Base_Player1();
+    protected final Terrain B2 = new Base_Player2();
     protected final StartType P1 = StartType.Player1;
     protected final StartType P2 = StartType.Player2;
     protected final StartType NP = StartType.NoStart;
