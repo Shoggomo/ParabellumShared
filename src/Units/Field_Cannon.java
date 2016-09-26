@@ -25,6 +25,6 @@ public class Field_Cannon extends Unit {
         chargeArmor = 0;
         cost = 24;
         this.owner = owner;
-        traits.add(Trait.SmallTarget);
+        //traits.add(Trait.SmallTarget);
     }
 }
