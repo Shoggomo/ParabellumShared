@@ -12,7 +12,7 @@ import Etc.Trait;
 public class Hussar extends Unit {
 //Sword
     public Hussar(PlayerType owner){
-        super("Hussar");
+        super(UnitName.Hussar);
         unitType = UnitType.Infantry;
         maxHealth = 140;
         currentHealth = maxHealth;

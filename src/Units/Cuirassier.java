@@ -11,7 +11,7 @@ import Etc.Trait;
 public class Cuirassier extends Unit {
 //Pistol
     public Cuirassier(PlayerType owner){
-        super("Cuirassier");
+        super(UnitName.Cuirassier);
         unitType = UnitType.Cavalry;
         maxHealth = 160;
         currentHealth = maxHealth;

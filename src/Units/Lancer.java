@@ -12,7 +12,7 @@ import Etc.Trait;
 public class Lancer extends Unit {
 //Lance
     public Lancer(PlayerType owner){
-        super("Lancer");
+        super(UnitName.Lancer);
         unitType = UnitType.Cavalry;
         maxHealth = 180;
         currentHealth = maxHealth;

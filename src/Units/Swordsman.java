@@ -11,7 +11,7 @@ import Etc.Trait;
 public class Swordsman extends Unit {
 //Sword & Shield
     public Swordsman(PlayerType owner){
-        super("Swordsman");
+        super(UnitName.Swordsman);
         unitType = UnitType.Infantry;
         maxHealth = 160;
         currentHealth = maxHealth;

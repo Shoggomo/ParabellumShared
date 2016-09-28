@@ -11,6 +11,7 @@ import java.util.List;
  */
 public class Unit {
     protected String name;
+    protected UnitName unitName;
     protected int maxHealth;
     protected int currentHealth;
     protected int maxOrder = 10;
@@ -28,8 +29,9 @@ public class Unit {
     protected PlayerType owner;
     protected List<Trait> traits;
 
-    public Unit(String name){
-        this.name = name;
+    public Unit(UnitName unitName){
+        this.unitName = unitName;
+        name = UnitName.Lancer.toString();
     }
 
     public String getName(){

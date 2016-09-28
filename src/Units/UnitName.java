@@ -3,7 +3,7 @@ package Units;
 /**
  * Created by Jakob on 25.09.2016.
  */
-public enum UnitNames {
+public enum UnitName {
 
     Cuirassier,
     Dragonier,

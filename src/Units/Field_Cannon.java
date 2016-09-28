@@ -12,7 +12,7 @@ import Etc.Trait;
 public class Field_Cannon extends Unit {
 //Canon
     public Field_Cannon(PlayerType owner){
-        super("Field_Cannon");
+        super(UnitName.Field_Cannon);
         unitType = UnitType.Artillery;
         maxHealth = 100;
         currentHealth = maxHealth;
