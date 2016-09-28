@@ -31,11 +31,15 @@ public class Unit {
 
     public Unit(UnitName unitName){
         this.unitName = unitName;
-        name = UnitName.Lancer.toString();
+        name = unitName.toString();
     }
 
     public String getName(){
         return name;
+    }
+
+    public UnitName getUnitName(){
+        return unitName;
     }
 
     public int getMaxHealth() {
