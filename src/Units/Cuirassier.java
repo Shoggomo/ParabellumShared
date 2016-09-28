@@ -15,7 +15,7 @@ public class Cuirassier extends Unit {
         unitType = UnitType.Cavalry;
         maxHealth = 160;
         currentHealth = maxHealth;
-        maxMovementRange = 11;
+        maxMovementRange = 6;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(50, 50, 80, 0);
         secondAbility = new Ranged(3, 6, 40, 40, 40, 1);

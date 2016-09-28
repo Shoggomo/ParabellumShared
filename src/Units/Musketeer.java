@@ -14,7 +14,7 @@ public class Musketeer extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 100;
         currentHealth = maxHealth;
-        maxMovementRange = 5;
+        maxMovementRange = 4;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(20, 20, 40, 0);
         secondAbility = new Ranged(7, 8, 60, 60, 50, 1);

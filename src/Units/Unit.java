@@ -15,7 +15,7 @@ public class Unit {
     protected int maxHealth;
     protected int currentHealth;
     protected int maxOrder = 10;
-    protected int order = maxOrder;
+    protected int currentOrder = maxOrder;
     protected int maxMovementRange;
     protected int currentMovementRange;
     protected int meleeArmor;
@@ -27,7 +27,7 @@ public class Unit {
     protected Ability secondAbility;
     protected UnitType unitType;
     protected PlayerType owner;
-    protected List<Trait> traits;
+    protected Trait trait;
 
     public Unit(UnitName unitName){
         this.unitName = unitName;
@@ -50,7 +50,7 @@ public class Unit {
         return currentHealth;
     }
 
-    public void setCurrentHealth(int currentHealth) {
+    public void setCurrentHealth(int currentHealth){
         this.currentHealth = currentHealth;
     }
 
@@ -62,12 +62,12 @@ public class Unit {
         this.maxOrder = maxOrder;
     }
 
-    public int getOrder() {
-        return order;
+    public int getCurrentOrder() {
+        return currentOrder;
     }
 
-    public void setOrder(int order) {
-        this.order = order;
+    public void setCurrentOrder(int currentOrder) {
+        this.currentOrder = currentOrder;
     }
 
     public int getMaxMovementRange() {
@@ -102,7 +102,7 @@ public class Unit {
         return combatReady;
     }
 
-    public void setCombatReadyReady(boolean combatReady) {
+    public void setCombatReady(boolean combatReady) {
         this.combatReady = combatReady;
     }
 
@@ -122,7 +122,8 @@ public class Unit {
         return owner;
     }
 
-    public List<Trait> getTraits() {
-        return traits;
+    public Trait getTrait() {
+        return trait;
     }
+
 }

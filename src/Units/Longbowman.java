@@ -15,7 +15,7 @@ public class Longbowman extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 120;
         currentHealth = maxHealth;
-        maxMovementRange = 7;
+        maxMovementRange = 4;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(30, 30, 60, 0);
         secondAbility = new Ranged(9, 12, 30, 30, 30, 0);
@@ -24,6 +24,6 @@ public class Longbowman extends Unit {
         chargeArmor = 10;
         cost = 1;
         this.owner = owner;
-        //traits.add(Trait.Quickdraw);
+        trait = Trait.Quickdraw;
     }
 }

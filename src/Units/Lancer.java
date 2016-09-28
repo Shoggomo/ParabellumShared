@@ -16,7 +16,7 @@ public class Lancer extends Unit {
         unitType = UnitType.Cavalry;
         maxHealth = 180;
         currentHealth = maxHealth;
-        maxMovementRange = 9;
+        maxMovementRange = 5;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(50, 50, 80, 0);
         secondAbility = new Charge(6,80,80,100,3);
@@ -25,6 +25,6 @@ public class Lancer extends Unit {
         chargeArmor = 30;
         cost = 32;
         this.owner = owner;
-        //traits.add(Trait.Steadfast);
+        trait = Trait.Steadfast;
     }
 }

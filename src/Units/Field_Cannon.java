@@ -16,7 +16,7 @@ public class Field_Cannon extends Unit {
         unitType = UnitType.Artillery;
         maxHealth = 100;
         currentHealth = maxHealth;
-        maxMovementRange = 5;
+        maxMovementRange = 2;
         currentMovementRange = maxMovementRange;
         firstAbility = new Artillery(13,12,30,20,30,3);
         secondAbility = new Ranged(5, 5, 60, 50, 50, 3);
@@ -25,6 +25,6 @@ public class Field_Cannon extends Unit {
         chargeArmor = 0;
         cost = 24;
         this.owner = owner;
-        //traits.add(Trait.SmallTarget);
+        trait = Trait.SmallTarget;
     }
 }

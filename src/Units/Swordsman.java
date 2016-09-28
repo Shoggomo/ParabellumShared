@@ -15,7 +15,7 @@ public class Swordsman extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 160;
         currentHealth = maxHealth;
-        maxMovementRange = 5;
+        maxMovementRange = 3;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(40, 60, 80, 0);
         secondAbility = null;
@@ -24,6 +24,6 @@ public class Swordsman extends Unit {
         chargeArmor = 40;
         cost = 16;
         this.owner = owner;
-        //traits.add(Trait.Breakthrough);
+        trait = Trait.Breakthrough;
     }
 }

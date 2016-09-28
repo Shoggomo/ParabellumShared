@@ -14,7 +14,7 @@ public class Dragonier extends Unit {
         unitType = UnitType.Cavalry;
         maxHealth = 100;
         currentHealth = maxHealth;
-        maxMovementRange = 13;
+        maxMovementRange = 7;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(40, 30, 70, 0);
         secondAbility = new Ranged(5, 12, 40, 25, 25, 1);

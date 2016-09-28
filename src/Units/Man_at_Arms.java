@@ -15,7 +15,7 @@ public class Man_at_Arms extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 200;
         currentHealth = maxHealth;
-        maxMovementRange = 5;
+        maxMovementRange = 3;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(50, 40, 80, 0);
         secondAbility = null;
@@ -24,6 +24,6 @@ public class Man_at_Arms extends Unit {
         chargeArmor = 30;
         cost = 24;
         this.owner = owner;
-        //traits.add(Trait.Steadfast);
+        trait = Trait.Steadfast;
     }
 }

@@ -15,7 +15,7 @@ public class Pikeman extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 140;
         currentHealth = maxHealth;
-        maxMovementRange = 5;
+        maxMovementRange = 3;
         currentMovementRange = maxMovementRange;
         firstAbility = new Melee(30, 60, 60, 0);
         secondAbility = null;
@@ -24,6 +24,6 @@ public class Pikeman extends Unit {
         chargeArmor = 50;
         cost = 10;
         this.owner = owner;
-        //traits.add(Trait.Pikewall);
+        trait = Trait.Pikewall;
     }
 }
