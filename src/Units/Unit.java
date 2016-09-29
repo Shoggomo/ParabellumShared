@@ -123,5 +123,4 @@ public class Unit {
     public Trait getTrait() {
         return trait;
     }
-
 }

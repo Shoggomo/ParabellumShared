@@ -12,15 +12,15 @@ public class Swordsman extends Unit {
     public Swordsman(PlayerType owner){
         super(UnitName.Swordsman);
         unitType = UnitType.Infantry;
-        maxHealth = 160;
+        maxHealth = 180;
         currentHealth = maxHealth;
         maxMovement = 3;
         currentMovement = maxMovement;
-        firstAbility = new Melee(40, 60, 80, 0);
+        firstAbility = new Melee(30, 30, 60, 0);
         secondAbility = null;
-        meleeArmor = 20;
-        rangedArmor = 20;
-        chargeArmor = 40;
+        meleeArmor = 30;
+        rangedArmor = 40;
+        chargeArmor = 20;
         cost = 16;
         this.owner = owner;
         trait = Trait.Shieldwall;
