@@ -15,8 +15,8 @@ public class Field_Cannon extends Unit {
         unitType = UnitType.Artillery;
         maxHealth = 100;
         currentHealth = maxHealth;
-        maxMovementRange = 2;
-        currentMovementRange = maxMovementRange;
+        maxMovement = 2;
+        currentMovement = maxMovement;
         firstAbility = new Artillery(13,12,30,20,30,3);
         secondAbility = new Ranged(5, 5, 60, 50, 50, 3);
         meleeArmor = 0;

@@ -14,8 +14,8 @@ public class Swordsman extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 160;
         currentHealth = maxHealth;
-        maxMovementRange = 3;
-        currentMovementRange = maxMovementRange;
+        maxMovement = 3;
+        currentMovement = maxMovement;
         firstAbility = new Melee(40, 60, 80, 0);
         secondAbility = null;
         meleeArmor = 20;

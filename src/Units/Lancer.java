@@ -15,8 +15,8 @@ public class Lancer extends Unit {
         unitType = UnitType.Cavalry;
         maxHealth = 180;
         currentHealth = maxHealth;
-        maxMovementRange = 5;
-        currentMovementRange = maxMovementRange;
+        maxMovement = 5;
+        currentMovement = maxMovement;
         firstAbility = new Melee(50, 50, 80, 0);
         secondAbility = new Charge(6,80,80,100,3);
         meleeArmor = 30;

@@ -14,8 +14,8 @@ public class Man_at_Arms extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 200;
         currentHealth = maxHealth;
-        maxMovementRange = 3;
-        currentMovementRange = maxMovementRange;
+        maxMovement = 3;
+        currentMovement = maxMovement;
         firstAbility = new Melee(50, 40, 80, 0);
         secondAbility = null;
         meleeArmor = 30;

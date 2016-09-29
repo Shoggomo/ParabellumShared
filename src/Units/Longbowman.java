@@ -15,8 +15,8 @@ public class Longbowman extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 120;
         currentHealth = maxHealth;
-        maxMovementRange = 4;
-        currentMovementRange = maxMovementRange;
+        maxMovement = 4;
+        currentMovement = maxMovement;
         firstAbility = new Melee(30, 30, 60, 0);
         secondAbility = new Ranged(9, 12, 30, 30, 30, 0);
         meleeArmor = 10;

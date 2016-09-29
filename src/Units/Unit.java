@@ -14,8 +14,8 @@ public class Unit {
     protected int currentHealth;
     protected int maxOrder = 10;
     protected int currentOrder = maxOrder;
-    protected int maxMovementRange;
-    protected int currentMovementRange;
+    protected int maxMovement;
+    protected int currentMovement;
     protected int meleeArmor;
     protected int rangedArmor;
     protected int chargeArmor;
@@ -68,16 +68,16 @@ public class Unit {
         this.currentOrder = currentOrder;
     }
 
-    public int getMaxMovementRange() {
-        return maxMovementRange;
+    public int getMaxMovement() {
+        return maxMovement;
     }
 
-    public int getCurrentMovementRange() {
-        return currentMovementRange;
+    public int getCurrentMovement() {
+        return currentMovement;
     }
 
-    public void setCurrentMovementRange(int currentMovementRange) {
-        this.currentMovementRange = currentMovementRange;
+    public void setCurrentMovement(int currentMovement) {
+        this.currentMovement = currentMovement;
     }
 
     public int getMeleeArmor() {

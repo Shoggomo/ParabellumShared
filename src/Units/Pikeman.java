@@ -14,8 +14,8 @@ public class Pikeman extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 140;
         currentHealth = maxHealth;
-        maxMovementRange = 3;
-        currentMovementRange = maxMovementRange;
+        maxMovement = 3;
+        currentMovement = maxMovement;
         firstAbility = new Melee(30, 60, 60, 0);
         secondAbility = null;
         meleeArmor = 10;

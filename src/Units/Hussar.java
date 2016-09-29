@@ -15,8 +15,8 @@ public class Hussar extends Unit {
         unitType = UnitType.Infantry;
         maxHealth = 140;
         currentHealth = maxHealth;
-        maxMovementRange = 7;
-        currentMovementRange = maxMovementRange;
+        maxMovement = 7;
+        currentMovement = maxMovement;
         firstAbility = new Melee(40, 40, 80, 0);
         secondAbility = new Charge(8,60,60,100,1);
         meleeArmor = 15;
