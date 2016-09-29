@@ -8,7 +8,7 @@ import Etc.PlayerType;
  * Created by Nik on 10.09.2016.
  */
 public class Musketeer extends Unit {
-//Musket
+
     public Musketeer(PlayerType owner) {
         super(UnitName.Musketeer);
         unitType = UnitType.Infantry;

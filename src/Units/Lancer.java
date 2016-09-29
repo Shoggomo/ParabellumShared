@@ -2,7 +2,6 @@ package Units;
 
 import Abilities.Charge;
 import Abilities.Melee;
-import Abilities.Ranged;
 import Etc.PlayerType;
 import Etc.Trait;
 
@@ -10,7 +9,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Lancer extends Unit {
-//Lance
+
     public Lancer(PlayerType owner){
         super(UnitName.Lancer);
         unitType = UnitType.Cavalry;

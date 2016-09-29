@@ -1,7 +1,6 @@
 package Units;
 
 import Abilities.Melee;
-import Abilities.Ranged;
 import Etc.PlayerType;
 import Etc.Trait;
 
@@ -9,7 +8,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Swordsman extends Unit {
-//Sword & Shield
+
     public Swordsman(PlayerType owner){
         super(UnitName.Swordsman);
         unitType = UnitType.Infantry;

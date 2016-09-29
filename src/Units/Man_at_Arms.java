@@ -1,7 +1,6 @@
 package Units;
 
 import Abilities.Melee;
-import Abilities.Ranged;
 import Etc.PlayerType;
 import Etc.Trait;
 
@@ -9,7 +8,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Man_at_Arms extends Unit {
-//Helmet & (Hammer or Greatsword)
+
     public Man_at_Arms(PlayerType owner){
         super(UnitName.Man_at_Arms);
         unitType = UnitType.Infantry;

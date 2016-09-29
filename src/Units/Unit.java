@@ -4,8 +4,6 @@ import Abilities.Ability;
 import Etc.PlayerType;
 import Etc.Trait;
 
-import java.util.List;
-
 /**
  * Created by Shoggomo on 02.09.2016.
  */

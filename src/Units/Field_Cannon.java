@@ -1,7 +1,6 @@
 package Units;
 
 import Abilities.Artillery;
-import Abilities.Melee;
 import Abilities.Ranged;
 import Etc.PlayerType;
 import Etc.Trait;
@@ -10,7 +9,7 @@ import Etc.Trait;
  * Created by Nik on 20.09.2016.
  */
 public class Field_Cannon extends Unit {
-//Canon
+
     public Field_Cannon(PlayerType owner){
         super(UnitName.Field_Cannon);
         unitType = UnitType.Artillery;
