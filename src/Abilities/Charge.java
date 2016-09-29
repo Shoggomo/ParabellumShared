@@ -6,6 +6,6 @@ package Abilities;
 public class Charge extends Ability {
 
     public Charge(int limit, int infantryDamage, int cavalryDamage, int artilleryDamage, int orderDamage) {
-        super(AbilityType.Charge, 2, limit, infantryDamage, cavalryDamage, artilleryDamage, orderDamage);
+        super(AbilityType.Charge, 1, limit, infantryDamage, cavalryDamage, artilleryDamage, orderDamage);
     }
 }
