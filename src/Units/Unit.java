@@ -2,7 +2,7 @@ package Units;
 
 import Abilities.Ability;
 import Etc.PlayerType;
-import Etc.Trait;
+import Etc.Traits;
 
 /**
  * Created by Shoggomo on 02.09.2016.
@@ -25,7 +25,7 @@ public class Unit {
     protected Ability secondAbility;
     protected UnitType unitType;
     protected PlayerType owner;
-    protected Trait trait;
+    protected Traits trait;
 
     public Unit(UnitName unitName){
         this.unitName = unitName;
@@ -120,7 +120,7 @@ public class Unit {
         return owner;
     }
 
-    public Trait getTrait() {
+    public Traits getTrait() {
         return trait;
     }
 }

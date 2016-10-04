@@ -1,10 +1,11 @@
 package Etc;
 
-public enum Trait {
+public enum Traits {
     HitAndRun,
     Pikewall,
     Steadfast,
     Quickdraw,
     Shieldwall,
-    SmallTarget
+    Artillery,
+    Shock
 }

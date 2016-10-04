@@ -2,7 +2,7 @@ package Units;
 
 import Abilities.Melee;
 import Etc.PlayerType;
-import Etc.Trait;
+import Etc.Traits;
 
 /**
  * Created by Nik on 20.09.2016.
@@ -23,6 +23,6 @@ public class Man_at_Arms extends Unit {
         chargeArmor = 30;
         cost = 24;
         this.owner = owner;
-        trait = Trait.Steadfast;
+        trait = Traits.Steadfast;
     }
 }

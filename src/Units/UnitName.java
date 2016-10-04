@@ -5,7 +5,6 @@ package Units;
  */
 public enum UnitName {
 
-    Cuirassier,
     Dragonier,
     Field_Cannon,
     Swordsman,

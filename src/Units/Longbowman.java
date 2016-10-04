@@ -3,7 +3,7 @@ package Units;
 import Abilities.Melee;
 import Abilities.Ranged;
 import Etc.PlayerType;
-import Etc.Trait;
+import Etc.Traits;
 
 /**
  * Created by Nik on 20.09.2016.
@@ -24,6 +24,6 @@ public class Longbowman extends Unit {
         chargeArmor = 10;
         cost = 1;
         this.owner = owner;
-        trait = Trait.Quickdraw;
+        trait = Traits.Quickdraw;
     }
 }
