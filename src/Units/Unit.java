@@ -8,8 +8,7 @@ import Etc.Traits;
  * Created by Shoggomo on 02.09.2016.
  */
 public class Unit {
-    protected String name;
-    protected UnitName unitName;
+    protected UnitName name;
     protected int maxHealth;
     protected int currentHealth;
     protected int maxOrder = 10;
@@ -27,17 +26,12 @@ public class Unit {
     protected PlayerType owner;
     protected Traits trait;
 
-    public Unit(UnitName unitName){
-        this.unitName = unitName;
-        name = unitName.toString();
+    public Unit(UnitName name){
+        this.name = name;
     }
 
-    public String getName(){
+    public UnitName getName(){
         return name;
-    }
-
-    public UnitName getUnitName(){
-        return unitName;
     }
 
     public int getMaxHealth() {
